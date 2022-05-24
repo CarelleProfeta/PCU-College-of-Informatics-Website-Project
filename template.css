@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navbar design */
+
+.navbar {
+    text-align: center;
+    background-color: #0142AE !important;
+}
+
+.header_links {
+    color: #fff !important;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-nav a {
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    background-color: #aaa9ad;
+    color: black !important;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+/* will show up when the user hit 1200px screen */
+.nav_title {
+    font-size: 25px;
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav_title {
+        display: block;
+        font-size: 20px;
+    }
+}
+/* banner design */
+
+.banner {
+    height: 110px;
+    background: url('images/template/PCU_banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    margin: 0 auto;
+    z-index: 10;
+    width: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/* position of the logo */
+.logo {
+    float: left;
+    margin-top: -5px;
+}
+
+.title {
+    font-weight: 700;
+    color: white;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 3px;
+    /* background-color: rgba(1, 66, 174, 0.7);                 Blue */
+    /* background-color: rgba(241, 81, 35, 0.65);               Orange    */
+    background-color: rgba(246, 125, 72, 0.75);
+    text-shadow: 6px 2px 4px #000000;
+}
+
+/* will change the size of font and padding when the user hit the 1000px screen */
+@media only screen and (max-width: 1000px) {
+    .title {
+        margin-top: 10px;
+        padding: 8px 10px 5px 10px;
+        font-size: 25px;
+    }
+}
+
+
+.content {
+    padding: 16px;
+    font-size: 28px;
+}
+
+/* where is this coming from */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+/* footer design */
+
+.footer {
+    overflow: hidden;
+    position: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0142AE;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+.tagline {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.footer_links {
+    text-decoration: none;
+    color: white;
+}
+
+.connect a:hover {
+    color: white;
+    text-decoration: underline;
+}

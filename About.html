@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>COI Website</title>
+
+    <link rel="stylesheet" href="template.css">
+    <script defer src="template.js"></script>
+    <link rel="stylesheet" href="About.css">
+    <script defer src="About.js"></script>
+
+    <link rel="icon" type="jpg" href="images/template/PCU_Logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body onscroll="myStickybanner()">
+    <!-- start of navbar -->
+    <header class="header">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-light">
+            <div class="container-fluid">
+                <p class="nav_title">COLLEGE OF INFORMATICS</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link header_links" href="index.html">HOME</a>
+                        <a class="nav-link header_links" href="About.html">ABOUT</a>
+                        <a class="nav-link header_links" href="#">PROGRAMS</a>
+                        <a class="nav-link header_links" href="Faculty.html">FACULTY</a>
+                        <a class="nav-link header_links" href="Student.html">STUDENT</a>
+                        <a class="nav-link header_links" href="#">NEWS</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- start of banner -->
+    <div id="banner" class="banner">
+        <div class="logo">
+            <img src="images/template/COI_Logo(w_strokes).png" width="85" height="85">
+        </div>
+        <h1 class="title">ABOUT</h1>
+    </div>
+
+    <div class="content">
+        <div class="row">
+            <div class="col-lg-2 side" class="side">
+                <p id="mybtn1" onclick="about_info(this.id)" class="side_button active_side">Overview</p>
+                <p id="mybtn2" onclick="about_info(this.id)" class="side_button">Mission and Vision</p>
+                <p id="mybtn3" onclick="about_info(this.id)" class="side_button">Facilities</p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-10 about_content">
+                <div class="container">
+                    <div class="information" id="information1">
+                        <div id="information1" class="information">
+                            <div class="info_header">
+                                <p id="information-title">ADVANCING GLOBAL TECHNOLOGICAL INNOVATION</p>
+                            </div>
+    
+                            <img src="images/about/PCU_front.jpg" class="img1">
+                            <!-- <br> -->
+                            <p> Welcome to the College of Informatics, the path to thriving careers in computer engineering
+                                and information technology.</p>
+                            <p>The academic programs offered by the college strive to educate students, inspire excellence
+                                in research and innovation, discover new knowledge, technologies, and systems, and embrace a
+                                culture of service.</p>
+                            <p>The college continues to conceive and develop programs to be at part with the advancement of
+                                modern global technology. Combined with PCU’s long-standing tradition of providing strong
+                                Christian education, the college offers a holistic education.</p>
+                            <img src="images/about/Dolphin.png" class="img2">
+                            <p>Integrating research, strong theoretical background, and hands-on experience in laboratories
+                                and practical immersions, students are given space to work in teams, develop collaboration,
+                                foster cooperation and connections, and engage in relevant and meaningful conversations
+                                guided by faculty members who are experts and specialists in their fields.</p>
+                            <p>Believing that technological infrastructure, engineering industry, and research innovation
+                                are the cornerstones of our economy, the college endeavors to make meaningful and lasting
+                                contributions to the society by producing graduates who are critically aware and responsive
+                                to the needs of the times.</p>
+                        </div>
+                    </div>
+                    
+                    <div id="information2" class="information">
+                        <div class="info_header">
+                            <p id="information-title">MISSION</p>
+                        </div>
+                        <div class="m_information">
+                            <p>The College of Engineering and Information Technology is committed to produce engineering
+                                and information technology professionals who are:​</p>
+                        </div>
+                        <div class="mission">
+                            <ul>
+                                <li>Fully prepared and equipped to meet the challenges of engineering and information
+                                    technology</li>
+                                <li>Productive and responsible members of society;</li>
+                                <li>Proficient in their field and highly motivated to excel;​</li>
+                                <li>Grounded in a deep faith in God and a commitment to serve.</li>
+                            </ul>
+                        </div>
+                        <div class="info_header">
+                            <p id="information-title">VISION</p>
+                        </div>
+                        <div class="v_information">
+                            <p>A center of excellence in engineering and information technology.</p>
+                        </div>
+                    </div>
+
+                    <div id="information3">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade_in">
+                                <div class="numbertext">1 / 5</div>
+                                <img src="images/about/Facilities1.jpg" class="pictures">
+                                <div class="text">Classroom 1</div>
+                            </div>
+
+                            <div class="mySlides fade_in">
+                                <div class="numbertext">2 / 5</div>
+                                <img src="images/about/Facilities2.jpg" class="pictures">
+                                <div class="text text_white">Classroom 2</div>
+                            </div>
+
+                            <div class="mySlides fade_in">
+                                <div class="numbertext">3 / 5</div>
+                                <img src="images/about/Facilities3.jpg" class="pictures">
+                                <div class="text text_white">Computer Laboratory 1</div>
+                            </div>
+
+                            <div class="mySlides fade_in">
+                                <div class="numbertext">4 / 5</div>
+                                <img src="images/about/Facilities4.jpg" class="pictures">
+                                <div class="text text_white">Computer Laboratory 2</div>
+                            </div>
+
+                            <div class="mySlides fade_in">
+                                <div class="numbertext">5 / 5</div>
+                                <img src="images/about/Facilities5.jpg" class="pictures">
+                                <div class="text text_white">Computer Studies Library</div>
+                            </div>
+
+                            <div id="prevNnext" style="display: none;">
+                                <p class="prev" onclick="plusSlides(-1)">❮</p>
+                                <p class="next" onclick="plusSlides(1)">❯</p>
+                            </div>
+
+                         </div> <!-- end -->
+
+                         <div class="div_dot" id="div_dot" style="text-align:center; display: none;">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start of footer -->
+    <footer class="footer">
+        <p class="tagline">FAITH • CHARACTER • SERVICE</p>
+        <div class="row">
+            <div class="col-1 col-md-2 col-lg-3">
+
+            </div>
+            <div class="col-10 col-md-8 col-lg-6">
+                <p class="disclaimer">Disclaimer: The materials use in this website including text and images, may not
+                    have been
+                    authorized by the copyright owner. Materials are distibuted without profit and for educational
+                    purposes only.
+                </p>
+            </div>
+            <div class="col-1 col-md-2 col-lg-3">
+
+            </div>
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-1 col-md-2 col-lg-3">
+
+            </div>
+            <div class="col-10 col-md-8 col-lg-6">
+                <p class="connect">Connect with us:
+                    <br>
+                    <a href="https://www.facebook.com/pcudolphins/" target="blank" class="footer_links">Facebook</a> |
+                    <a href="https://www.youtube.com/channel/UCNub8ULlYpUgbzqS03wCFRQ" target="blank"
+                        class="footer_links">Youtube</a> |
+                    <a href="https://www.gmail.com" target="blank" class="footer_links">Email: ceit@pcu.edu.ph</a> |
+                    Telephone: (+632) 8330-1664 | Mobile No: (+63) 9664206091
+                </p>
+
+                <p>Copyright 2022. All rights reserved Philippine Christian University | Manila, Philippines</p>
+            </div>
+            <div class="col-1 col-md-2 col-lg-3">
+
+            </div>
+        </div>
+        <p>Created by:
+            <br>
+            Jeremy Maglunob | Chrisantine Carelle Profeta | Hanna Reyes
+        </p>
+
+        <p>GROUP NAME: Team I.Tears T_T </p>
+    </footer>
+
+</body>
+
+</html>
